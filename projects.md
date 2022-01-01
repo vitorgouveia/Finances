@@ -7,17 +7,51 @@ Projects To-Do - 2022
 	References:
 		- [Mindblowing Web OS](https://rauno.me/), more on [Ref](https://www.instagram.com/p/CYBoLtygJ9j/)
 		- [MacOS Web OS](https://macos.vercel.app/)
+
 - [ ] CRA (Create React App - any bundler)
-	- has to be a minimal app, ohterwise i wont be able to handle SEO
+	Notes:
+		- has to be a minimal app, ohterwise i wont be able to handle SEO
+	
+	References:
+		- [React Documentation](https://reactjs.org/)
+
 - [ ] Next App
+	References:
+		- [Next Documentation](https://nextjs.org/)
+
 - [ ] Gatsby App (Blog?)
+	References:
+		- [Gatsby Documentation](https://www.gatsbyjs.com/)
+
 - [ ] Pure JS (or as close to that as possible)
 	Notes:
-		- use either webpack, parcel or babel
+		- use either [webpack](https://webpack.js.org/), [parcel](https://parceljs.org/) or [babel](https://babeljs.io/)
+
 - [ ] JAM Stack App with Django or Flask
+	References:
+		- [JAM Stack Documentation](https://jamstack.org/)
+		- [Django](https://www.djangoproject.com/)
+		- [Flask](https://flask.palletsprojects.com/en/2.0.x/)
+
 - [ ] A realtime API with Elixir
+	References:
+		- [Elixir Docs](https://elixir-lang.org/)
+		- [Phoenix Docs](https://www.phoenixframework.org/)
+
 - [ ] Something fun with Svelte (VSCode Extension)
+	References:
+		- [Svelte Docs](https://svelte.dev/)
+
 - [ ] Vue (Something with Electron, probably a web browser)
+	References:
+		- [Vue Docs](https://vuejs.org/)
+
 - [ ] Vite (Look into ideas)
+	References:
+		- [Vite Docs](https://vitejs.dev/)
+
 - [ ] React 18 Suspense (something with heavy data fetching)
+	References:
+		- [React 18 Plan](https://reactjs.org/blog/2021/06/08/the-plan-for-react-18.html)
+		- [Suspense/Cocurrent Mode](https://reactjs.org/docs/concurrent-mode-suspense.html)
  
