@@ -28,6 +28,8 @@
 		- use either [webpack](https://webpack.js.org/), [parcel](https://parceljs.org/) or [babel](https://babeljs.io/)
 
 - [ ] JAM Stack App with Django or Flask
+	System Monitor that ships information to a GUI in the browser
+
 	References:
 		- [JAM Stack Documentation](https://jamstack.org/)
 		- [Django](https://www.djangoproject.com/)
@@ -43,6 +45,8 @@
 		- [Svelte Docs](https://svelte.dev/)
 
 - [ ] Vue (Something with Electron, probably a web browser)
+	System monitor for all OS
+
 	References:
 		- [Vue Docs](https://vuejs.org/)
 
