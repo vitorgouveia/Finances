@@ -16,6 +16,9 @@
 		- [React Documentation](https://reactjs.org/)
 
 - [ ] Next App
+	Notes:
+		- an app for coding interviews (???)
+
 	References:
 		- [Next Documentation](https://nextjs.org/)
 
