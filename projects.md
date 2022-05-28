@@ -50,6 +50,8 @@
 		- [Phoenix Docs](https://www.phoenixframework.org/)
 
 - [ ] Something fun with Svelte (VSCode Extension)
+	- Project:
+		- [PasswordGenerator](https://github.com/vitorGouveia/PasswordGenerator) - Snowpack & Svelte
 
 	- References
 		- [Svelte Docs](https://svelte.dev/)
