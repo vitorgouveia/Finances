@@ -5,6 +5,8 @@
 		- this trend will explode
 
 	- References:
+        - [DaedalOS](https://dustinbrett.com) a windows 10 clone, [source code](https://github.com/DustinBrett/daedalOS)
+        - [React Windows 11](https://win11.blueedge.me), [source code](https://github.com/blueedgetechno/win11React)
 		- [Mindblowing Web OS](https://rauno.me/), more on [Ref](https://www.instagram.com/p/CYBoLtygJ9j/)
 		- [MacOS Web OS](https://macos.vercel.app/)
 
