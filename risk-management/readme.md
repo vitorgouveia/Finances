@@ -39,11 +39,12 @@ When diversifying like this you're exposing too much of your money to a risk ass
 
 When diversifying the correct way you're much more exposed to secure, high-quality and low risk stocks and just a little bit exposed to high-risk stocks.
 
-
-DAC is bullshit
-you should always buy stocks based on how safe it is
-you should also diversify against different classes
-
 ## Script
 
-Look into `formula.js` to see details of the current risk management formula
+The script works in a simple way:
+
+It asks you to create questions for your stocks, after that, answer those questions and get a grade back.
+
+With that grade we decide how much % you should be exposing that stock to your portifolio.
+
+Look into `formula.js` to see more details.

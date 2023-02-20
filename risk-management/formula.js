@@ -9,50 +9,43 @@ const generateGradeForStock = (questions = []) => (arrayOfAnswers) => {
   }
 
   return arrayOfAnswers
-    .reduce((acc, answer) => answer ? acc + 1 : acc - 1, 0)
+    .reduce((acc, answer) => answer ? acc + 1 : acc, 0)
 }
 
 const grades = generateGradeForStock([
   "Has a dividend yield bigger or equal to 5%",
   "Is in a essential economy field",
   "EBITDA CAGR is growing for at least 10 years",
-  "P/E is less than 10"
+  // "P/E is less than 10"
 ])
 
 const stocks = [
   {
     ticker: "APPL",
-    grade: grades([true, true, true, true]),
+    grade: grades([true, true, true]),
   },
   {
     ticker: "MSFT",
-    grade: grades([true, false, true, true]),
+    grade: grades([true, false, true]),
   },
   {
     ticker: "KO",
-    grade: grades([false, false, false, true]),
+    grade: grades([false, false, true]),
   },
   {
     ticker: "META",
-    grade: grades([false, true, true, false]),
+    grade: grades([false, true, true]),
   },
 ]
 
-const groups = {
-  "low-risk": [],
-  "medium-risk": [],
-  "high-risk": [],
-}
+const sum = (a, b) => a + b
 
-stocks.forEach(({ ticker, grade }) => {
-  if(grade > 1) {
-    groups["low-risk"].push(ticker)
-  } else if (grade < 0) {
-    groups["high-risk"].push(ticker)
-  } else {
-    groups["medium-risk"].push(ticker)
-  }
-})
+const gradesSum = stocks
+    .map(({ grade }) => grade)
+    .reduce(sum, 0)
 
-console.log("Asset risk classification")
-console.log(groups)
+const stocksClassification = stocks
+    .map(({ ticker, grade }) => `${ticker} should be ${Math.floor(grade / gradesSum * 100)}%`)
+
+console.log(stocks)
+console.log(stocksClassification)
