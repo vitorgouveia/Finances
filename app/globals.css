@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-darker: theme("colors.zinc.950");
+  --primary-dark: theme("colors.zinc.900");
+  --primary-base: theme("colors.zinc.600");
+  --primary-light: theme("colors.zinc.300");
+  --primary-lighter: theme("colors.zinc.50");
+
+  --accent-light: #5e8af8;
+  --accent-base: #2d67f6;
+
+  --paragraph: var(--primary-base);
+  --title: var(--primary-dark);
+  --placeholder: theme("colors.zinc.400");
+}
+
+body {
+  @apply bg-zinc-50 text-zinc-900;
+}
+
+h1 {
+  color: var(--title);
+  @apply text-4xl font-semibold;
+}
+
+h2 {
+  color: var(--title);
+  @apply text-2xl font-semibold;
+}
+
+h3 {
+  color: var(--title);
+  @apply text-xl font-semibold;
+}
+
+p {
+  color: var(--paragraph);
+  @apply text-base;
+}
+
+small {
+  color: var(--paragraph);
+  @apply text-sm;
+}
+
+section {
+  @apply w-full p-20;
+}
+
+.max-width {
+  @apply mx-auto flex w-full max-w-7xl flex-col gap-16 px-6;
+}
+
+button {
+  color: var(--primary-lighter);
+  background: var(--primary-darker);
+  @apply rounded-md px-3 py-1.5 text-base;
+}
